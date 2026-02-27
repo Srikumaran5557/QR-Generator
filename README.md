@@ -22,11 +22,10 @@ Multi-format QR code desktop application supporting **Text, WiFi, Contact, UPI, 
 
 ## 🖼️ Screenshots
 
-> Place images inside `Screenshots/`
 
 | Main Window                   | Tabs                          |
 | ----------------------------- | ----------------------------- |
-| ![Main](Screenshots/main.png) | ![Tabs](Screenshots/tabs.png) |
+| ![Main](Screenshots/UPI.png) | ![Tabs](Screenshots/QR_Preview.png) |
 
 ---
 
