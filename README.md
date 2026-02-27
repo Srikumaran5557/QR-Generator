@@ -38,10 +38,13 @@ QR-Generator/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── icon.png
 └── Screenshots/
-    ├── main.png
-    └── tabs.png
+    ├── UPI.png
+    └── Text.png
+    └── Contact.png
+    └── Location.png
+    └── Wifi.png
+    └── QR_Preview.png
 ```
 
 ---
