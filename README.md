@@ -1,28 +1,6 @@
-Perfect — below is a **complete GitHub-ready README.md** with everything expected in a polished repo:
-
-* Overview
-* Features
-* Screenshots
-* Installation
-* Usage
-* QR formats
-* AppImage
-* Dependencies
-* Structure
-* Tech stack
-* Packaging
-* Author
-* License
-* Contributing
-
-You can paste this directly into **README.md**.
-
----
-
 # 📱 QR Utility Desktop
 
 Multi-format QR code desktop application supporting **Text, WiFi, Contact, UPI, and Location (DMS)** with **PNG/SVG export** and a modern **ttkbootstrap UI**.
-Packaged for Linux as a portable **AppImage**.
 
 ---
 
@@ -39,8 +17,6 @@ Packaged for Linux as a portable **AppImage**.
 * Accurate **Google Maps location QR**
 * Clean **tabbed desktop UI**
 * Input validation
-* Cross-platform Python app
-* Linux **AppImage** distribution
 
 ---
 
@@ -188,24 +164,6 @@ END:VCARD
 
 ---
 
-## 🐧 AppImage (Linux)
-
-Portable standalone build:
-
-```
-QRUtility-x86_64.AppImage
-```
-
-Run:
-
-```
-chmod +x QRUtility-x86_64.AppImage
-./QRUtility-x86_64.AppImage
-```
-
-No Python required.
-
----
 
 ## 🧱 Tech Stack
 
@@ -214,97 +172,6 @@ No Python required.
 * ttkbootstrap
 * qrcode
 * Pillow
-* PyInstaller
-* AppImage
 
 ---
 
-## 📦 Packaging
-
-Build pipeline:
-
-```
-qr_app.py
-   ↓ PyInstaller
-dist/qr_app
-   ↓ AppDir
-QRUtility.AppDir
-   ↓ appimagetool
-QRUtility-x86_64.AppImage
-```
-
----
-
-## 🧪 Validation
-
-* UPI format validation
-* Numeric amount check
-* DMS coordinate parsing
-* Latitude/Longitude range checks
-
----
-
-## 👨‍💻 Author
-
-**Srikumaran S.S.**
-B.Tech Electrical & Electronics Engineering
-NIT Trichy
-
-GitHub: [https://github.com/Srikumaran5557](https://github.com/Srikumaran5557)
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Open Pull Request
-
----
-
-## ⭐ Acknowledgements
-
-* ttkbootstrap
-* qrcode
-* Pillow
-* Tkinter
-
----
-
-# ✔️ What you should do now
-
-1. Copy this into `README.md`
-2. Ensure screenshots exist:
-
-```
-Screenshots/main.png
-Screenshots/tabs.png
-```
-
-3. Commit & push:
-
-```
-git add README.md
-git commit -m "Add complete project README"
-git push
-```
-
----
-
-If you want, I can also provide:
-
-* MIT LICENSE file
-* GitHub release text
-* AppImage build instructions section
-* README badges
-
-Just tell me.
