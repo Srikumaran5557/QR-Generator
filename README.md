@@ -1,4 +1,4 @@
-# 📱 QR Utility Desktop
+# 📱 QR Generator
 
 Multi-format QR code desktop application supporting **Text, WiFi, Contact, UPI, and Location (DMS)** with **PNG/SVG export** and a modern **ttkbootstrap UI**.
 
